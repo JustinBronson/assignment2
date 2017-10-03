@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 16}, {400, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{110, 119}, {150, 32}}",
+          "uuid" : "AB597D85-DEE8-4BF5-8661-665A15130A29",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "How many seconds ago was the object released?",
+          "name" : "question_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{241, 58}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{177, 120}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "DE608CDC-EAFB-4BCA-B95A-ED9BA6516B96",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 58}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "seconds_textbox",
+          "frame" : "{{117, 120}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "DBAA145D-8297-41D7-BA37-55623B57836E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 98}, {400, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{142, 120}, {150, 32}}",
+          "uuid" : "2A9EA4AB-7178-452B-A938-01C4E03D5F45",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {434, 271}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
